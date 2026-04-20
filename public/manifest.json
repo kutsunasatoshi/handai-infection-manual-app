@@ -1,0 +1,19 @@
+{
+  "name": "阪大感染管理マニュアル",
+  "short_name": "感染管理",
+  "description": "大阪大学医学部附属病院 感染制御部 感染管理マニュアル",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F5F8F7",
+  "theme_color": "#0F766E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "handai-infection-manual-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start --port 8099",
+    "start:wifi": "REACT_NATIVE_PACKAGER_HOSTNAME=$(ipconfig getifaddr en0) expo start --host lan --port 8099 --clear",
+    "ios": "expo start --ios --port 8099",
+    "android": "expo start --android --port 8099",
+    "extract:text": "python3 tools/extract_manual_text.py",
+    "convert:word": "node tools/convert_word_to_html.js",
+    "export:web": "expo export --platform web --output-dir dist-test && node tools/post_export_pwa.js",
+    "serve:web": "python3 -m http.server 8098 --bind 0.0.0.0 --directory dist-test",
+    "tunnel": "expo start --tunnel --port 8099 --clear",
+    "web": "expo start --web --port 8099"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "mammoth": "^1.12.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-native": "^0.81.5",
+    "react-native-web": "^0.21.0",
+    "react-native-webview": "13.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "babel-preset-expo": "~54.0.10"
+  }
+}

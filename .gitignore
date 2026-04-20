@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+dist-test/
+source-pdfs/
+tools/vendor/
+word-source/*.docx
+word-source/*.xlsx
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
