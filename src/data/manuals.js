@@ -21,7 +21,7 @@ export const sections = [
     label: "II",
     title: "隔離予防策",
     items: [
-      { title: "標準予防策", updatedAt: "2026.06", url: `${BASE_URL}/2-1.pdf` },
+      { title: "標準予防策", updatedAt: "2026.06", isNew: true, url: `${BASE_URL}/2-1.pdf` },
       { title: "感染経路別予防策", updatedAt: "2026.2.27", url: `${BASE_URL}/2-2.pdf` }
     ]
   },
@@ -51,12 +51,12 @@ export const sections = [
       { title: "薬剤耐性菌", updatedAt: "2026.2.27", url: `${BASE_URL}/5-1.pdf` },
       { title: "結核", updatedAt: "2025.10.17", url: `${BASE_URL}/5-2ingai.pdf` },
       { title: "麻疹", updatedAt: "2025.6.16", url: `${BASE_URL}/5-3ingai.pdf` },
-      { title: "水痘及び帯状疱疹", updatedAt: "2026.06", url: `${BASE_URL}/5-4ingai.pdf` },
+      { title: "水痘及び帯状疱疹", updatedAt: "2026.06", isNew: true, url: `${BASE_URL}/5-4ingai.pdf` },
       { title: "風疹", url: `${BASE_URL}/5-5ingai.pdf` },
       { title: "流行性耳下腺炎", url: `${BASE_URL}/5-6ingai.pdf` },
       { title: "流行性角結膜炎（EKC）", updatedAt: "2025.11.21", url: `${BASE_URL}/5-7ingai.pdf` },
-      { title: "インフルエンザ", updatedAt: "2026.4.16", isNew: true, keywords: "flu", url: `${BASE_URL}/5-8ingai.pdf` },
-      { title: "新型コロナウイルス感染症", updatedAt: "2026.4.16", isNew: true, keywords: "COVID COVID-19 corona SARS-CoV-2", url: `${BASE_URL}/5-9ingai.pdf` },
+      { title: "インフルエンザ", updatedAt: "2026.4.16", keywords: "flu", url: `${BASE_URL}/5-8ingai.pdf` },
+      { title: "新型コロナウイルス感染症", updatedAt: "2026.4.16", keywords: "COVID COVID-19 corona SARS-CoV-2", url: `${BASE_URL}/5-9ingai.pdf` },
       { title: "感染性下痢症（O-157、ノロウィルスなど）", url: `${BASE_URL}/5-10ingai.pdf` },
       { title: "侵襲性髄膜炎菌感染症", url: `${BASE_URL}/5-11ingai.pdf` },
       { title: "SFTS", updatedAt: "2025.10.17", url: `${BASE_URL}/5-12ingai.pdf` },
@@ -71,7 +71,7 @@ export const sections = [
     items: [
       { title: "CVカテーテル関連血流感染防止対策（CR-BSI）", updatedAt: "2025.6.16", url: `${BASE_URL}/6-1.pdf` },
       { title: "尿道留置カテーテル関連尿路感染予防策（CA-UTI）", updatedAt: "2025.6.16", url: `${BASE_URL}/6-2.pdf` },
-      { title: "人工呼吸器関連肺炎防止対策（VAP）", updatedAt: "2026.4.16", isNew: true, url: `${BASE_URL}/6-3.pdf` },
+      { title: "人工呼吸器関連肺炎防止対策（VAP）", updatedAt: "2026.4.16", url: `${BASE_URL}/6-3.pdf` },
       { title: "術後創感染予防策（SSI）", updatedAt: "2025.6.16", url: `${BASE_URL}/6-4.pdf` }
     ]
   },
