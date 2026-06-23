@@ -5,6 +5,18 @@ services:
     buildCommand: npm ci && npm run export:web
     staticPublishPath: ./dist-test
     headers:
+      - path: /
+        name: Cache-Control
+        value: no-cache
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /manuals/*.html
+        name: Cache-Control
+        value: no-cache
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
       - path: /manuals/assets/*
         name: Cache-Control
         value: public, max-age=31536000, immutable

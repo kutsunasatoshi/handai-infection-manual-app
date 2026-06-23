@@ -4,7 +4,7 @@ export const source = {
   title: "感染管理マニュアル 院外版",
   organization: "大阪大学医学部附属病院 感染制御部",
   sourceUrl: "https://www.hosp.med.osaka-u.ac.jp/home/hp-infect/contents/manual_top.html",
-  lastUpdated: "2026年4月"
+  lastUpdated: "2026年6月"
 };
 
 export const sections = [
