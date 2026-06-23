@@ -21,7 +21,7 @@ export const sections = [
     label: "II",
     title: "隔離予防策",
     items: [
-      { title: "標準予防策", updatedAt: "2025.8.18", url: `${BASE_URL}/2-1.pdf` },
+      { title: "標準予防策", updatedAt: "2026.06", url: `${BASE_URL}/2-1.pdf` },
       { title: "感染経路別予防策", updatedAt: "2026.2.27", url: `${BASE_URL}/2-2.pdf` }
     ]
   },
@@ -51,7 +51,7 @@ export const sections = [
       { title: "薬剤耐性菌", updatedAt: "2026.2.27", url: `${BASE_URL}/5-1.pdf` },
       { title: "結核", updatedAt: "2025.10.17", url: `${BASE_URL}/5-2ingai.pdf` },
       { title: "麻疹", updatedAt: "2025.6.16", url: `${BASE_URL}/5-3ingai.pdf` },
-      { title: "水痘及び帯状疱疹", updatedAt: "2025.10.23", url: `${BASE_URL}/5-4ingai.pdf` },
+      { title: "水痘及び帯状疱疹", updatedAt: "2026.06", url: `${BASE_URL}/5-4ingai.pdf` },
       { title: "風疹", url: `${BASE_URL}/5-5ingai.pdf` },
       { title: "流行性耳下腺炎", url: `${BASE_URL}/5-6ingai.pdf` },
       { title: "流行性角結膜炎（EKC）", updatedAt: "2025.11.21", url: `${BASE_URL}/5-7ingai.pdf` },
